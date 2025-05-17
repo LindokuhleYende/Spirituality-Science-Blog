@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon main.js"
   },
-  "author": "Pierre Jonker",
+  "author": "Lindokuhle Yende",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
