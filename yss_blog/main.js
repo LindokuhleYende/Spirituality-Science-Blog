@@ -37,7 +37,8 @@ app.use(
 app.use(express.static('public'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-mongoose.connect("mongodb://localhost:27017/my_database", { useUnifiedTopology: true, useNewUrlParser: true });
+mongoose.connect("mongodb://127.0.0.1:27017/mydatabase", { useUnifiedTopology: true, useNewUrlParser: true });
+
 
 const PORT = 4000;
 
